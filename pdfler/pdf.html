@@ -1,0 +1,645 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://use.fontawesome.com/releases/v5.15.3/js/all.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@200&family=Montserrat:ital,wght@0,100;0,200;1,100&family=Nunito:ital,wght@1,200&family=Urbanist:wght@200&display=swap"
+        rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet" />
+
+    <!-- Bootstrap core JS-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"></script>
+
+</head>
+
+<body>
+    <div class="navbar navbar-expand-lg navbar-dark navbar-custom fixed-top">
+        <div class="container px-6">
+            <div class="col-md-3" style="text-align:center;">
+                <a class="navbar-brand">PROF. DR. SELÇUK ÇOLAK</a>
+                <li class="nav-item" id="unvan">
+                    TOBB Adana Akademik Danışmanı
+                </li>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false"
+                    aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+
+            </div>
+
+            <div class="col-md-8" style="text-align:center;">
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#ekonomi">
+                                Adana İli Temel Ekonomik Göstergeler
+                            </a>
+                        </li>
+                        <li class="nav-item" style="width:15%;"></li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#akademik">
+                                TEPAV Temel Ekonomik Göstergeler Sunumu
+                            </a>
+                        </li>
+                        <li class="nav-item" style="width:15%;"></li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#tobbhaftalik">
+                                Tobb Haftalık Ekonomi Bülteni
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+    <div class="container-fluid">
+        <div class="row" id="_ustmargin" class="elif">
+            <div class="col-md-1">
+            </div>
+            <div class="col-md-3">
+                <img src="img/tobb.png" id="tobb">
+            </div>
+            <div class="col-md-1">
+
+            </div>
+            <div class="col-md-3">
+                <img src="img/analogo.PNG" id="analogo">
+            </div>
+            <div class="col-md-1">
+
+            </div>
+            <div class="col-md-2" style="text-align:center;">
+                <img src="img/tepav.png" id="tepav">
+            </div>
+            <div class="col-md-1">
+
+            </div>
+        </div>
+
+        <div class="container" style="margin-top:7%">
+            <div>
+                <a name="ekonomi"></a>
+                <div id="buttonaralik"></div>
+                <p class="h3" style="font-family: 'IBM Plex Sans Arabic', sans-serif;
+                        font-family: 'Montserrat', sans-serif;
+                        font-family: 'Nunito', sans-serif;">ADANA İLİ TEMEL EKONOMİK GÖSTERGELER</p>
+
+            </div>
+            <div class="table-responsive _margin">
+                <table class="table ">
+                    <thead class="table-light">
+                        <tr>
+                            <th scope="col">YAYIMLAYAN KURULUŞ</th>
+                            <th scope="col">GÜNCEL DÖNEM</th>
+                            <th scope="col">AÇIKLAMA</th>
+                            <th scope="col">DOSYA LİNKLERİ</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>TOBB-TEPAV Akademik Danışman</td>
+                            <td>AĞUSTOS 2021</td>
+                            <td>Adana İli Ekonomik Göstergeler</td>
+                            <td style="text-align: center;">
+                                <a href="pdfs/ILBAZLI/Adana_Agustos_Ayi_Ekonomik_Gostergeler_Sunumu.pdf"
+                                    class="_text_decoration" target="_blank">
+                                    <i class="fas fa-file-pdf"></i>
+                                </a>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <div class="container">
+            <div>
+                <a name="akademik"></a>
+                <div id="buttonaralik"></div>
+                <p class="h3" style="font-family: 'IBM Plex Sans Arabic', sans-serif;
+                        font-family: 'Montserrat', sans-serif;
+                        font-family: 'Nunito', sans-serif;">TEPAV TEMEL EKONOMİK GÖSTERGELER SUNUMU</p>
+
+            </div>
+            <div class="table-responsive _margin">
+                <table class="table ">
+                    <thead class="table-light">
+                        <tr>
+                            <th scope="col">#</th>
+                            <th scope="col">YAYIMLAYAN KURULUŞ</th>
+                            <th scope="col"> DÖNEM</th>
+                            <th scope="col">AÇIKLAMA</th>
+                            <th scope="col">DOSYA LİNKLERİ</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th scope="row" id="th_duzeltme">1</th>
+                            <td>TEPAV</td>
+                            <td>EYLÜL 2021</td>
+                            <td>TEPAV Temel Ekonomik Göstergeler</td>
+                            <td style="text-align: center;">
+                                <a href="pdfs/TEPAV/TEPAV_Temel_Ekonomik_Göstergeler_Sunumu_7_30092021.pdf"
+                                    class="_text_decoration" target="_blank"><i class="fas fa-file-pdf"></i></a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <th scope="row" id="th_duzeltme">2</th>
+                            <td>TEPAV</td>
+                            <td>AĞUSTOS 2021</td>
+                            <td>TEPAV Temel Ekonomik Göstergeler</td>
+                            <td style="text-align: center;">
+                                <a href="pdfs/TEPAV/TEPAV_Temel_Ekonomik_Göstergeler_Sunumu_6_26082021.pdf"
+                                    class="_text_decoration" target="_blank"><i class="fas fa-file-pdf"></i></a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <th scope="row" id="th_duzeltme">3</th>
+                            <td>TEPAV</td>
+                            <td>TEMMUZ 2021</td>
+                            <td>TEPAV Temel Ekonomik Göstergeler</td>
+                            <td style="text-align: center;">
+                                <a href="pdfs/TEPAV/TEPAV_Temel_Ekonomik_Göstergeler_Sunumu_5_29072021.pdf"
+                                    class="_text_decoration" target="_blank"><i class="fas fa-file-pdf"></i></a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <th scope="row" id="th_duzeltme">4</th>
+                            <td>TEPAV</td>
+                            <td>HAZİRAN 2021</td>
+                            <td>TEPAV Temel Ekonomik Göstergeler</td>
+                            <td style="text-align: center;">
+                                <a href="pdfs/TEPAV/TEPAV_Temel_Ekonomik_Göstergeler_Sunumu_4_24062021.pdf"
+                                    class="_text_decoration" target="_blank"><i class="fas fa-file-pdf"></i></a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <th scope="row" id="th_duzeltme">5</th>
+                            <td>TEPAV</td>
+                            <td>MAYIS 2021</td>
+                            <td>TEPAV Temel Ekonomik Göstergeler</td>
+                            <td style="text-align: center;">
+                                <a href="pdfs/TEPAV/TEPAV_Temel_Ekonomik_Göstergeler_Sunumu_3_27052021.pdf"
+                                    class="_text_decoration" target="_blank"><i class="fas fa-file-pdf"></i></a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <th scope="row" id="th_duzeltme">6</th>
+                            <td>TEPAV</td>
+                            <td>NİSAN 2021</td>
+                            <td>TEPAV Temel Ekonomik Göstergeler</td>
+                            <td style="text-align: center;">
+                                <a href="pdfs/TEPAV/TEPAV_Temel_Ekonomik_Göstergeler_Sunumu_2_29042021.pdf"
+                                    class="_text_decoration" target="_blank"><i class="fas fa-file-pdf"></i></a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <th scope="row" id="th_duzeltme">7</th>
+                            <td>TEPAV</td>
+                            <td>MART 2021</td>
+                            <td>TEPAV Temel Ekonomik Göstergeler</td>
+                            <td style="text-align: center;">
+                                <a href="pdfs/TEPAV/TEPAV_Temel_Ekonomik_Göstergeler_Sunumu_1_250321.pdf"
+                                    class="_text_decoration" target="_blank"><i class="fas fa-file-pdf"></i></a>
+                            </td>
+                        </tr>
+                      
+                     
+            
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <div class="container" style="margin-top:7%">
+            <div>
+                <a name="tobbhaftalik"></a>
+                <div id="buttonaralik"></div>
+                <p class="h3" style="font-family: 'IBM Plex Sans Arabic', sans-serif;
+                        font-family: 'Montserrat', sans-serif;
+                        font-family: 'Nunito', sans-serif;">TOBB HAFTALIK EKONOMİ BÜLTENİ</p>
+            </div>
+            <div class="table-responsive _margin">
+                <table class="table ">
+                    <thead class="table-light">
+                        <tr>
+                            <th scope="col">#</th>
+                            <th scope="col">YAYIMLAYAN KURULUŞ</th>
+                            <th scope="col"> DÖNEM</th>
+                            <th scope="col">AÇIKLAMA</th>
+                            <th scope="col">DOSYA LİNKLERİ</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th scope="row" id="th_duzeltme">1</th>
+                            <td>TOBB</td>
+                            <td>6 - 10 EYLÜL</td>
+                            <td>TOBB Haftalık Ekonomi Bülteni</td>
+                            <td style="text-align: center;">
+                                <a href="pdfs/TOBB/TOBB_Ekonomi_Bülteni_Sayı_2021_36.pdf" class="_text_decoration"
+                                    target="_blank">
+                                    <i class="fas fa-file-pdf"></i></a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <th scope="row" id="th_duzeltme">2</th>
+                            <td>TOBB</td>
+                            <td>30 AĞUSTOS - 3 EYLÜL</td>
+                            <td>TOBB Haftalık Ekonomi Bülteni</td>
+                            <td style="text-align: center;">
+                                <a href="pdfs/TOBB/TOBB_Ekonomi_Bülteni_Sayı_2021_35.pdf" class="_text_decoration"
+                                    target="_blank">
+                                    <i class="fas fa-file-pdf"></i></a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <th scope="row" id="th_duzeltme">3</th>
+                            <td>TOBB</td>
+                            <td>23 - 27 AĞUSTOS</td>
+                            <td>TOBB Haftalık Ekonomi Bülteni</td>
+                            <td style="text-align: center;">
+                                <a href="pdfs/TOBB/TOBB_Ekonomi_Bülteni_Sayı_2021_34.pdf" class="_text_decoration"
+                                    target="_blank">
+                                    <i class="fas fa-file-pdf"></i></a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <th scope="row" id="th_duzeltme">4</th>
+                            <td>TOBB</td>
+                            <td>16 - 20 AĞUSTOS</td>
+                            <td>TOBB Haftalık Ekonomi Bülteni</td>
+                            <td style="text-align: center;">
+                                <a href="pdfs/TOBB/TOBB_Ekonomi_Bülteni_Sayı_2021_33.pdf" class="_text_decoration"
+                                    target="_blank">
+                                    <i class="fas fa-file-pdf"></i></a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <th scope="row" id="th_duzeltme">5</th>
+                            <td>TOBB</td>
+                            <td>9 - 13 AĞUSTOS</td>
+                            <td>TOBB Haftalık Ekonomi Bülteni</td>
+                            <td style="text-align: center;">
+                                <a href="pdfs/TOBB/TOBB_Ekonomi_Bülteni_Sayı_2021_32.pdf" class="_text_decoration"
+                                    target="_blank">
+                                    <i class="fas fa-file-pdf"></i></a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <th scope="row" id="th_duzeltme">6</th>
+                            <td>TOBB</td>
+                            <td>2 - 6 AĞUSTOS</td>
+                            <td>TOBB Haftalık Ekonomi Bülteni</td>
+                            <td style="text-align: center;">
+                                <a href="pdfs/TOBB/TOBB_Ekonomi_Bülteni_Sayı_2021_31.pdf" class="_text_decoration"
+                                    target="_blank">
+                                    <i class="fas fa-file-pdf"></i></a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <th scope="row" id="th_duzeltme">7</th>
+                            <td>TOBB</td>
+                            <td>26 - 30 TEMMUZ</td>
+                            <td>TOBB Haftalık Ekonomi Bülteni</td>
+                            <td style="text-align: center;">
+                                <a href="pdfs/TOBB/TOBB_Ekonomi_Bülteni_Sayı_2021_30.pdf" class="_text_decoration"
+                                    target="_blank">
+                                    <i class="fas fa-file-pdf"></i></a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <th scope="row" id="th_duzeltme">8</th>
+                            <td>TOBB</td>
+                            <td>19 - 23 TEMMUZ</td>
+                            <td>TOBB Haftalık Ekonomi Bülteni</td>
+                            <td style="text-align: center;">
+                                <a href="pdfs/TOBB/TOBB_Ekonomi_Bülteni_Sayı_2021_29.pdf" class="_text_decoration"
+                                    target="_blank">
+                                    <i class="fas fa-file-pdf"></i></a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <th scope="row" id="th_duzeltme">9</th>
+                            <td>TOBB</td>
+                            <td>12 - 16 TEMMUZ</td>
+                            <td>TOBB Haftalık Ekonomi Bülteni</td>
+                            <td style="text-align: center;">
+                                <a href="pdfs/TOBB/TOBB_Ekonomi_Bülteni_Sayı_2021_28.pdf" class="_text_decoration"
+                                    target="_blank">
+                                    <i class="fas fa-file-pdf"></i></a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <th scope="row" id="th_duzeltme">10</th>
+                            <td>TOBB</td>
+                            <td>5 - 9 TEMMUZ</td>
+                            <td>TOBB Haftalık Ekonomi Bülteni</td>
+                            <td style="text-align: center;">
+                                <a href="pdfs/TOBB/TOBB_Ekonomi_Bülteni_Sayı_2021_27.pdf" class="_text_decoration"
+                                    target="_blank">
+                                    <i class="fas fa-file-pdf"></i></a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <th scope="row" id="th_duzeltme">11</th>
+                            <td>TOBB</td>
+                            <td>28 HAZİRAN - 2 TEMMUZ</td>
+                            <td>TOBB Haftalık Ekonomi Bülteni</td>
+                            <td style="text-align: center;">
+                                <a href="pdfs/TOBB/TOBB_Ekonomi_Bülteni_Sayı_2021_26.pdf" class="_text_decoration"
+                                    target="_blank">
+                                    <i class="fas fa-file-pdf"></i></a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <th scope="row" id="th_duzeltme">12</th>
+                            <td>TOBB</td>
+                            <td>21 - 25 HAZİRAN</td>
+                            <td>TOBB Haftalık Ekonomi Bülteni</td>
+                            <td style="text-align: center;">
+                                <a href="pdfs/TOBB/TOBB_Ekonomi_Bülteni_Sayı_2021_25.pdf" class="_text_decoration"
+                                    target="_blank">
+                                    <i class="fas fa-file-pdf"></i></a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <th scope="row" id="th_duzeltme">13</th>
+                            <td>TOBB</td>
+                            <td>14 - 18 HAZİRAN</td>
+                            <td>TOBB Haftalık Ekonomi Bülteni</td>
+                            <td style="text-align: center;">
+                                <a href="pdfs/TOBB/TOBB_Ekonomi_Bülteni_Sayı_2021_24.pdf" class="_text_decoration"
+                                    target="_blank">
+                                    <i class="fas fa-file-pdf"></i></a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <th scope="row" id="th_duzeltme">14</th>
+                            <td>TOBB</td>
+                            <td>7 - 11 HAZİRAN</td>
+                            <td>TOBB Haftalık Ekonomi Bülteni</td>
+                            <td style="text-align: center;">
+                                <a href="pdfs/TOBB/TOBB_Ekonomi_Bülteni_Sayı_2021_23.pdf" class="_text_decoration"
+                                    target="_blank">
+                                    <i class="fas fa-file-pdf"></i></a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <th scope="row" id="th_duzeltme">15</th>
+                            <td>TOBB</td>
+                            <td>31 MAYIS - 4 HAZİRAN</td>
+                            <td>TOBB Haftalık Ekonomi Bülteni</td>
+                            <td style="text-align: center;">
+                                <a href="pdfs/TOBB/TOBB_Ekonomi_Bülteni_Sayı_2021_22.pdf" class="_text_decoration"
+                                    target="_blank">
+                                    <i class="fas fa-file-pdf"></i></a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <th scope="row" id="th_duzeltme">16</th>
+                            <td>TOBB</td>
+                            <td>24 - 28 MAYIS</td>
+                            <td>TOBB Haftalık Ekonomi Bülteni</td>
+                            <td style="text-align: center;">
+                                <a href="pdfs/TOBB/TOBB_Ekonomi_Bülteni_Sayı_2021_21.pdf" class="_text_decoration"
+                                    target="_blank">
+                                    <i class="fas fa-file-pdf"></i></a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <th scope="row" id="th_duzeltme">18</th>
+                            <td>TOBB</td>
+                            <td>17 - 21 MAYIS</td>
+                            <td>TOBB Haftalık Ekonomi Bülteni</td>
+                            <td style="text-align: center;">
+                                <a href="pdfs/TOBB/TOBB_Ekonomi_Bülteni_Sayı_2021_20.pdf" class="_text_decoration"
+                                    target="_blank">
+                                    <i class="fas fa-file-pdf"></i></a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <th scope="row" id="th_duzeltme">19</th>
+                            <td>TOBB</td>
+                            <td>10 - 14 MAYIS</td>
+                            <td>TOBB Haftalık Ekonomi Bülteni</td>
+                            <td style="text-align: center;">
+                                <a href="pdfs/TOBB/TOBB_Ekonomi_Bülteni_Sayı_2021_19.pdf" class="_text_decoration"
+                                    target="_blank">
+                                    <i class="fas fa-file-pdf"></i></a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <th scope="row" id="th_duzeltme">20</th>
+                            <td>TOBB</td>
+                            <td>3 - 7 MAYIS</td>
+                            <td>TOBB Haftalık Ekonomi Bülteni</td>
+                            <td style="text-align: center;">
+                                <a href="pdfs/TOBB/TOBB_Ekonomi_Bülteni_Sayı_2021_18.pdf" class="_text_decoration"
+                                    target="_blank">
+                                    <i class="fas fa-file-pdf"></i></a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <th scope="row" id="th_duzeltme">21</th>
+                            <td>TOBB</td>
+                            <td>26 - 30 NİSAN</td>
+                            <td>TOBB Haftalık Ekonomi Bülteni</td>
+                            <td style="text-align: center;">
+                                <a href="pdfs/TOBB/TOBB_Ekonomi_Bülteni_Sayı_2021_17.pdf" class="_text_decoration"
+                                    target="_blank">
+                                    <i class="fas fa-file-pdf"></i></a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <th scope="row" id="th_duzeltme">22</th>
+                            <td>TOBB</td>
+                            <td>19 - 23 NİSAN</td>
+                            <td>TOBB Haftalık Ekonomi Bülteni</td>
+                            <td style="text-align: center;">
+                                <a href="pdfs/TOBB/TOBB_Ekonomi_Bülteni_Sayı_2021_16.pdf" class="_text_decoration"
+                                    target="_blank">
+                                    <i class="fas fa-file-pdf"></i></a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <th scope="row" id="th_duzeltme">23</th>
+                            <td>TOBB</td>
+                            <td>12 - 16 NİSAN</td>
+                            <td>TOBB Haftalık Ekonomi Bülteni</td>
+                            <td style="text-align: center;">
+                                <a href="pdfs/TOBB/TOBB_Ekonomi_Bülteni_Sayı_2021_15.pdf" class="_text_decoration"
+                                    target="_blank">
+                                    <i class="fas fa-file-pdf"></i>
+                                </a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <th scope="row" id="th_duzeltme">24</th>
+                            <td>TOBB</td>
+                            <td>5 - 9 NİSAN</td>
+                            <td>TOBB Haftalık Ekonomi Bülteni</td>
+                            <td style="text-align: center;">
+                                <a href="pdfs/TOBB/TOBB_Ekonomi_Bülteni_Sayı_2021_14.pdf" class="_text_decoration"
+                                    target="_blank">
+                                    <i class="fas fa-file-pdf"></i></a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <th scope="row" id="th_duzeltme">25</th>
+                            <td>TOBB</td>
+                            <td>29 MART - 2 NİSAN</td>
+                            <td>TOBB Haftalık Ekonomi Bülteni</td>
+                            <td style="text-align: center;">
+                                <a href="pdfs/TOBB/TOBB_Ekonomi_Bülteni_Sayı_2021_13.pdf" class="_text_decoration"
+                                    target="_blank">
+                                    <i class="fas fa-file-pdf"></i></a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <th scope="row" id="th_duzeltme">26</th>
+                            <td>TOBB</td>
+                            <td>22 - 26 MART</td>
+                            <td>TOBB Haftalık Ekonomi Bülteni</td>
+                            <td style="text-align: center;">
+                                <a href="pdfs/TOBB/TOBB_Ekonomi_Bülteni_Sayı_2021_12.pdf" class="_text_decoration"
+                                    target="_blank">
+                                    <i class="fas fa-file-pdf"></i></a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <th scope="row" id="th_duzeltme">27</th>
+                            <td>TOBB</td>
+                            <td>15 - 19 MART</td>
+                            <td>TOBB Haftalık Ekonomi Bülteni</td>
+                            <td style="text-align: center;">
+                                <a href="pdfs/TOBB/TOBB_Ekonomi_Bülteni_Sayı_2021_11.pdf" class="_text_decoration"
+                                    target="_blank">
+                                    <i class="fas fa-file-pdf"></i></a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <th scope="row" id="th_duzeltme">28</th>
+                            <td>TOBB</td>
+                            <td>8 - 12 MART</td>
+                            <td>TOBB Haftalık Ekonomi Bülteni</td>
+                            <td style="text-align: center;">
+                                <a href="pdfs/TOBB/TOBB_Ekonomi_Bülteni_Sayı_2021_10.pdf" class="_text_decoration"
+                                    target="_blank">
+                                    <i class="fas fa-file-pdf"></i></a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <th scope="row" id="th_duzeltme">29</th>
+                            <td>TOBB</td>
+                            <td>1 - 5 MART</td>
+                            <td>TOBB Haftalık Ekonomi Bülteni</td>
+                            <td style="text-align: center;">
+                                <a href="pdfs/TOBB/TOBB_Ekonomi_Bülteni_Sayı_2021_09.pdf" class="_text_decoration"
+                                    target="_blank">
+                                    <i class="fas fa-file-pdf"></i></a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <th scope="row" id="th_duzeltme">30</th>
+                            <td>TOBB</td>
+                            <td>22 - 26 ŞUBAT</td>
+                            <td>TOBB Haftalık Ekonomi Bülteni</td>
+                            <td style="text-align: center;">
+                                <a href="pdfs/TOBB/TOBB_Ekonomi_Bülteni_Sayı_2021_08.pdf" class="_text_decoration"
+                                    target="_blank"><i class="fas fa-file-pdf"></i></a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <th scope="row" id="th_duzeltme">31</th>
+                            <td>TOBB</td>
+                            <td>15 - 19 ŞUBAT</td>
+                            <td>TOBB Haftalık Ekonomi Bülteni</td>
+                            <td style="text-align: center;">
+                                <a href="pdfs/TOBB/TOBB_Ekonomi_Bülteni_Sayı_2021_07.pdf" class="_text_decoration"
+                                    target="_blank"><i class="fas fa-file-pdf"></i></a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <th scope="row" id="th_duzeltme">32</th>
+                            <td>TOBB</td>
+                            <td>8 - 12 ŞUBAT</td>
+                            <td>TOBB Haftalık Ekonomi Bülteni</td>
+                            <td style="text-align: center;">
+                                <a href="pdfs/TOBB/TOBB_Ekonomi_Bülteni_Sayı_2021_06.pdf" class="_text_decoration"
+                                    target="_blank"><i class="fas fa-file-pdf"></i></a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <th scope="row" id="th_duzeltme">33</th>
+                            <td>TOBB</td>
+                            <td>1 - 5 ŞUBAT</td>
+                            <td>TOBB Haftalık Ekonomi Bülteni</td>
+                            <td style="text-align: center;">
+                                <a href="pdfs/TOBB/TOBB_Ekonomi_Bülteni_Sayı_2021_05.pdf" class="_text_decoration"
+                                    target="_blank"><i class="fas fa-file-pdf"></i></a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <th scope="row" id="th_duzeltme">34</th>
+                            <td>TOBB</td>
+                            <td>25 - 29 OCAK</td>
+                            <td>TOBB Haftalık Ekonomi Bülteni</td>
+                            <td style="text-align: center;">
+                                <a href="pdfs/TOBB/TOBB_Ekonomi_Bülteni_Sayı_2021_04.pdf" class="_text_decoration"
+                                    target="_blank"><i class="fas fa-file-pdf"></i></a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <th scope="row" id="th_duzeltme">35</th>
+                            <td>TOBB</td>
+                            <td>18 - 22 OCAK</td>
+                            <td>TOBB Haftalık Ekonomi Bülteni</td>
+                            <td style="text-align: center;">
+                                <a href="pdfs/TOBB/TOBB_Ekonomi_Bülteni_Sayı_2021_03.pdf" class="_text_decoration"
+                                    target="_blank"><i class="fas fa-file-pdf"></i></a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <th scope="row" id="th_duzeltme">36</th>
+                            <td>TOBB</td>
+                            <td>11 - 15 OCAK</td>
+                            <td>TOBB Haftalık Ekonomi Bülteni</td>
+                            <td style="text-align: center;">
+                                <a href="pdfs/TOBB/TOBB_Ekonomi_Bülteni_Sayı_2021_02.pdf" class="_text_decoration"
+                                    target="_blank"><i class="fas fa-file-pdf"></i></a>
+                            </td>
+                        </tr> 
+                        <tr>
+                            <th scope="row" id="th_duzeltme">37</th>
+                            <td>TOBB</td>
+                            <td>4 - 8 OCAK</td>
+                            <td>TOBB Haftalık Ekonomi Bülteni</td>
+                            <td style="text-align: center;">
+                                <a href="pdfs/TOBB/TOBB_Ekonomi_Bülteni_Sayı_2021_01.pdf" class="_text_decoration"
+                                    target="_blank"><i class="fas fa-file-pdf"></i></a>
+                            </td>
+                        </tr>           
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer-->
+    <footer>
+        <div class="container">
+            <hr>
+            <img src="img/logolar7_2.PNG" class="responsive2">
+        </div>
+    </footer>
+</body>
+
+</html>
